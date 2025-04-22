@@ -329,7 +329,7 @@ getHFCcountries <- function(names = FALSE){
 	Codes <-
 	html_table(
 	  html_element(
-	    read_html("http://www.fertilitydata.org/cgi-bin/country_codes.php"), 
+	    read_html("https://www.fertilitydata.org/Codes/CountryCodes/country_codes.php"), 
 	    "table"),
 	  header = TRUE)
 
